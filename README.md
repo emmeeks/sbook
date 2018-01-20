@@ -17,4 +17,6 @@ now all you do is GET it
 curl -s -k -H "Content-Type: application/json" \
     -H "Authorization: Bearer {access_token}" \
     https://speech.googleapis.com/v1/operations/{name}
+    
+reference: https://cloud.google.com/speech/docs/auth
 
